@@ -1,5 +1,3 @@
-from termios import CWERASE
-
 def main():
     cc = input("smth: ")
     coding(cc)
@@ -13,7 +11,7 @@ def coding(cc):
         stroutpt += "#"
 
     stroutpt += cc[len(cc)-4:len(cc)]
-    return (stroutpt)
+    print (stroutpt)
 
 if __name__ == "__main__":
     main()
