@@ -35,7 +35,7 @@ def counter(lines):
     #count lines
     for line in lines:
         #only if they are not comments or whitespaces
-        if line[0] != '#' and not line[0].isspace():
+        if len(line.strip()) != 0 and line.strip()[0] != '#':
             counter += 1
     return counter
 
