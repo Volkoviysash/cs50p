@@ -18,6 +18,7 @@ def main():
     print("Balance: ", account.balance)
     account.deposit(100)
     account.withdraw(50)
+    account.deposit(12)
     print("Balance:", account.balance)
 
 
