@@ -18,7 +18,7 @@ class Professor(Wizard):
 
 
 def main():
-    wizard = Wizard("Albus")
+    wizard = Wizard("Albuz")
     student = Student("Harry", "Griffindor")
     professor = Professor("Severus", "Defense Against")
 
