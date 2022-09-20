@@ -15,7 +15,7 @@ class Vault:
 
 
 def main():
-    potter = Vault(100, 50, 25)
+    potter = Vault(100, 150, 25)
     print(f"potter = {potter}")
 
     weasley = Vault(25, 50, 100)
