@@ -15,7 +15,7 @@ class Student:
     #Setter
     @house.setter
     def house(self, house):
-        if house in ["Gryffindor", "Revenclaw", "Lolaland"]:
+        if house in ["Gryffindor", "Riverdale", "Lolaland"]:
             self.house = house
 
 
